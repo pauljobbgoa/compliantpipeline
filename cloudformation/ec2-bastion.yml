@@ -104,6 +104,7 @@ Resources:
       guard:
         SuppressedRules:
           - 'EC2_INSTANCE_DETAILED_MONITORING_ENABLED'
+          - 'EC2_INSTANCE_PROFILE_ATTACHED'
     Properties:
       ImageId: !Ref pOperatingSystem
       Monitoring: false
